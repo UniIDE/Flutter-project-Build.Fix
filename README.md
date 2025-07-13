@@ -2,10 +2,9 @@
 Fix problems with Flutter build.
 
 # Permission 
-Fix: make a folder with same name as project, and user permission!
+Fix: Change permission of /usr/local, for Flutter build to use!
 
 ```
-project=learning
-sudo mkdir $project
-sudo chown -R $USER:$USER $project
+dir=/usr/local
+sudo chown -R $USER:$USER $dir
 ```
